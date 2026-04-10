@@ -1,0 +1,15 @@
+# projctl configuration for forge
+
+platform: github
+
+github:
+  repo: "astavonin/forge"
+
+common:
+  issue_template:
+    required_sections:
+      - "Description"
+      - "Acceptance Criteria"
+
+planning_sync:
+  gdrive_base: ~/GoogleDrive
